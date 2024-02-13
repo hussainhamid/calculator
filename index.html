@@ -7,8 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="main">
     <h1>Calculator</h1>
+    <div id="display">
+    <p id="display-text" >0</p>
+    </div>
+
+    <div id="numbers">
+
+    <button id="one" class="button" onclick="populateDisplay('1')">1</button>
+    <button id="two" class="button" onclick="populateDisplay('2')">2</button>
+    <button id="three" class="button" onclick="populateDisplay('3')">3</button>
+
+    <button id="plus" class="button" class="operator" onclick="populateDisplay('+')">+</button>
+
+    <button id="four" class="button" onclick="populateDisplay('4')">4</button>
+    <button id="five" class="button" onclick="populateDisplay('5')">5</button>
+    <button id="six" class="button"  onclick="populateDisplay('6')">6</button>
+
+    <button id="minus" class="button" class="operator" onclick="populateDisplay('-')">-</button>
+
+    <button id="seven" class="button" onclick="populateDisplay('7')">7</button>
+    <button id="eight" class="button" onclick="populateDisplay('8')">8</button>
+    <button id="nine" class="button" onclick="populateDisplay('9')">9</button>
+
+    <button id="multiply" class="button" class="operator" onclick="populateDisplay('*')">*</button>
     
+    <button id="zero" class="button" onclick="populateDisplay('0')">0</button>
+
+    <button id="divide" class="button" class="operator" onclick="populateDisplay('/')">/</button>
+    <button id="equal" class="button">=</button>
+    </div>
+    <button id="clear" class="button">AC</button>
+
+    </div>
+
+    <div id="credit"> <h2>&#169; Made by Hussain hamid</h2></div>
 
     <script src="app.js"></script>
 </body>

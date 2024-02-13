@@ -1,8 +1,60 @@
+
 body {
     background-color: antiquewhite;
+    align-items: center;
+    padding-right:50px;
+    padding-left: 50px;
+    padding-top: 100PX;
+}
+
+#main {
+    background-color:bisque;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+    width: 280PX;
+    align-items: center;
+    
 }
 
 h1 {
     text-align: center;
-    color:darkcyan
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#display {
+    padding: 5px;
+    margin-bottom: 10px;;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: rgb(47, 49, 49);
+    color:antiquewhite;     
+    text-align: end ; 
+    display: block;
+}
+
+#display-text {
+    text-align: end;
+    padding-right: 5px;
+    
+    letter-spacing: 2px;
+}
+
+.button {
+    padding: 15px;
+    margin: 10px;
+    background-color:cadetblue;
+    color:aliceblue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:space-evenly ;
+}
+
+#credit {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 1000px;
+    font-size: large;
 }
